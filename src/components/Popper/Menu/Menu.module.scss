@@ -1,0 +1,40 @@
+.menu-list {
+    width: 224px;
+    height: 1000px;
+    .menu-item {
+        width: 100%;
+        margin-left: 0;
+        font-size: 1.5rem;
+        justify-content: flex-start;
+        border-radius: 0;
+        padding: 11px 16px;
+    }
+}
+.menu-item:hover {
+    background-color: rgba(22, 24, 35, 0.03);
+}
+.header {
+    display: flex;
+    height: 50px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8px;
+    flex-shrink: 0;
+}
+.menu-body {
+    overflow-y: auto;
+}
+.back-btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+.separate {
+    border-top: 1px solid rgba(22, 24, 35, 0.12);
+    padding: 10px 16px;
+}

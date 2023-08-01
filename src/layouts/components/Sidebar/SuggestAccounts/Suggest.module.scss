@@ -1,0 +1,36 @@
+.wrapper {
+    padding: 10px 0;
+    border-top: 1px solid rgba(22, 32, 25, 0.2);
+    border-bottom: 1px solid rgba(22, 32, 25, 0.2);
+}
+.item {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+}
+.item-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover / center;
+    overflow: hidden;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.item-infor {
+    margin-left: 10px;
+    flex: 1;
+}
+.item-nickname {
+    font-size: 1.6rem;
+}
+.item-icon {
+    margin-left: 5px;
+    color: #20d5ec;
+}
+.item-username {
+    font-size: 1.2rem;
+    font-weight: 500;
+}

@@ -1,0 +1,51 @@
+.wrapper {
+    --button-width: 52px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--default-Height);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    background-color: var(--background-light);
+}
+.inner {
+    width: var(--default-Width);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--default-layout-padding-horizontal);
+}
+.logo-link {
+    display: flex;
+    margin-left: 8px;
+}
+.more-btn {
+    font-size: 1.8rem;
+    margin: 4px 8px;
+    background-color: transparent;
+    padding: 8px;
+}
+.action {
+    display: flex;
+    align-items: center;
+}
+.action-btn {
+    background-color: transparent;
+    padding: 4px 10px;
+    font-size: 2rem;
+}
+.action-avata {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    margin-left: 12px;
+    cursor: pointer;
+    img {
+        width: 100%;
+    }
+}
